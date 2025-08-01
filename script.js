@@ -15,3 +15,23 @@ for(let i = 1; i <=100; i++){
 
 
   // Prime Time
+
+let primeNumb = 9;
+primeNumb += 1;
+let prumNumbBool = true;
+
+while(primeNumb < 20){
+
+    primeNumb++;
+
+    for(let i = 0; i < primeNumb; i++){
+        if(primeNumb % 2 === 0){
+            prumNumbBool = false;
+            continue;
+        }
+
+    }if(prumNumbBool = true){
+        console.log(`Prime Number is ${primeNumb}`);
+        break;
+    }
+}
